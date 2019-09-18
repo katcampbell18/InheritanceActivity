@@ -2,7 +2,7 @@ package com.demo;
 
 import java.util.Objects;
 
-public class Book extends Product {
+final public class Book extends Product {
 
     private String title;
     private String author;
