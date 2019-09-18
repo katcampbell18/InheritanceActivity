@@ -39,22 +39,22 @@ public class Main {
             System.out.println("The programmer likes to work alone");
         }
 
-        Product p = new Product();
-        p.setCode("36582");
-        p.setDescription("a toy");
-        p.setPrice(5.69);
-        System.out.println(p.toString());
-
-        Product p1 = new Product();
-        p1.setCode("56894");
-        p1.setDescription("snow cone maker");
-        p1.setPrice(23.99);
-        System.out.println(p1.toString());
-
-        if(p == p1){
-            System.out.println("Please check the product codes again.");
-        }else{
-            System.out.println("You may proceed to checkout");
-        }
+//        Product p = new Product();
+//        p.setCode("36582");
+//        p.setDescription("a toy");
+//        p.setPrice(5.69);
+//        System.out.println(p.toString());
+//
+//        Product p1 = new Product();
+//        p1.setCode("56894");
+//        p1.setDescription("snow cone maker");
+//        p1.setPrice(23.99);
+//        System.out.println(p1.toString());
+//
+//        if(p == p1){
+//            System.out.println("Please check the product codes again.");
+//        }else{
+//            System.out.println("You may proceed to checkout");
+//        }
     }
 }
